@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="app_trace">
+          <df name="gcov">
+          </df>
+        </df>
+        <df name="app_update">
+        </df>
+        <df name="asio">
+          <df name="asio">
+            <df name="asio">
+              <df name="src">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="bootloader">
+          <df name="bootloader_support">
+            <df name="src">
+              <df name="esp32">
+              </df>
+            </df>
+          </df>
+          <df name="efuse">
+            <df name="esp32">
+            </df>
+            <df name="src">
+            </df>
+          </df>
+          <df name="esptool_py">
+          </df>
+          <df name="log">
+          </df>
+          <df name="main">
+          </df>
+          <df name="micro-ecc">
+            <df name="micro-ecc">
+            </df>
+          </df>
+          <df name="soc">
+            <df name="esp32">
+            </df>
+            <df name="src">
+              <df name="hal">
+              </df>
+            </df>
+          </df>
+          <df name="spi_flash">
+          </df>
+        </df>
+        <df name="bootloader_support">
+          <df name="src">
+            <df name="idf">
+            </df>
+          </df>
+        </df>
+        <df name="bt">
+        </df>
+        <df name="coap">
+          <df name="libcoap">
+            <df name="src">
+            </df>
+          </df>
+          <df name="port">
+          </df>
+        </df>
+        <df name="console">
+          <df name="argtable3">
+          </df>
+          <df name="linenoise">
+          </df>
+        </df>
+        <df name="cxx">
+        </df>
+        <df name="driver">
+        </df>
+        <df name="efuse">
+          <df name="esp32">
+          </df>
+          <df name="src">
+          </df>
+        </df>
+        <df name="esp-tls">
+        </df>
+        <df name="esp32">
+        </df>
+        <df name="esp_adc_cal">
+        </df>
+        <df name="esp_common">
+          <df name="src">
+          </df>
+        </df>
+        <df name="esp_eth">
+          <df name="src">
+          </df>
+        </df>
+        <df name="esp_event">
+        </df>
+        <df name="esp_gdbstub">
+          <df name="esp32">
+          </df>
+          <df name="src">
+          </df>
+          <df name="xtensa">
+          </df>
+        </df>
+        <df name="esp_http_client">
+          <df name="lib">
+          </df>
+        </df>
+        <df name="esp_http_server">
+          <df name="src">
+            <df name="util">
+            </df>
+          </df>
+        </df>
+        <df name="esp_https_ota">
+          <df name="src">
+          </df>
+        </df>
+        <df name="esp_https_server">
+        </df>
+        <df name="esp_local_ctrl">
+          <df name="proto-c">
+          </df>
+          <df name="src">
+          </df>
+        </df>
+        <df name="esp_ringbuf">
+        </df>
+        <df name="esp_rom">
+        </df>
+        <df name="esp_websocket_client">
+        </df>
+        <df name="esp_wifi">
+          <df name="src">
+          </df>
+        </df>
+        <df name="espcoredump">
+          <df name="src">
+          </df>
+        </df>
+        <df name="esptool_py">
+        </df>
+        <df name="expat">
+          <df name="expat">
+            <df name="expat">
+              <df name="lib">
+              </df>
+            </df>
+          </df>
+          <df name="port">
+          </df>
+        </df>
+        <df name="fatfs">
+          <df name="diskio">
+          </df>
+          <df name="port">
+            <df name="freertos">
+            </df>
+          </df>
+          <df name="src">
+          </df>
+          <df name="vfs">
+          </df>
+        </df>
+        <df name="freemodbus">
+          <df name="common">
+          </df>
+          <df name="modbus">
+            <df name="ascii">
+            </df>
+            <df name="functions">
+            </df>
+            <df name="rtu">
+            </df>
+            <df name="tcp">
+            </df>
+          </df>
+          <df name="port">
+          </df>
+          <df name="serial_master">
+            <df name="modbus_controller">
+            </df>
+            <df name="port">
+            </df>
+          </df>
+          <df name="serial_slave">
+            <df name="modbus_controller">
+            </df>
+            <df name="port">
+            </df>
+          </df>
+        </df>
+        <df name="freertos">
+        </df>
+        <df name="heap">
+        </df>
+        <df name="idf_test">
+        </df>
+        <df name="include">
+          <df name="config">
+          </df>
+          <in>sdkconfig.h</in>
+        </df>
+        <df name="jsmn">
+          <df name="src">
+          </df>
+        </df>
+        <df name="json">
+          <df name="cJSON">
+          </df>
+        </df>
+        <df name="libsodium">
+          <df name="libsodium">
+            <df name="src">
+              <df name="libsodium">
+                <df name="crypto_aead">
+                  <df name="chacha20poly1305">
+                    <df name="sodium">
+                    </df>
+                  </df>
+                  <df name="xchacha20poly1305">
+                    <df name="sodium">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_auth">
+                  <df name="hmacsha256">
+                  </df>
+                  <df name="hmacsha512">
+                  </df>
+                  <df name="hmacsha512256">
+                  </df>
+                </df>
+                <df name="crypto_box">
+                  <df name="curve25519xsalsa20poly1305">
+                  </df>
+                </df>
+                <df name="crypto_core">
+                  <df name="curve25519">
+                    <df name="ref10">
+                    </df>
+                  </df>
+                  <df name="hchacha20">
+                  </df>
+                  <df name="hsalsa20">
+                    <df name="ref2">
+                    </df>
+                  </df>
+                  <df name="salsa">
+                    <df name="ref">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_generichash">
+                  <df name="blake2b">
+                    <df name="ref">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_hash">
+                  <df name="sha256">
+                    <df name="cp">
+                    </df>
+                  </df>
+                  <df name="sha512">
+                    <df name="cp">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_kdf">
+                  <df name="blake2b">
+                  </df>
+                </df>
+                <df name="crypto_kx">
+                </df>
+                <df name="crypto_onetimeauth">
+                  <df name="poly1305">
+                    <df name="donna">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_pwhash">
+                  <df name="argon2">
+                  </df>
+                  <df name="scryptsalsa208sha256">
+                    <df name="nosse">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_scalarmult">
+                  <df name="curve25519">
+                    <df name="ref10">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_secretbox">
+                  <df name="xsalsa20poly1305">
+                  </df>
+                </df>
+                <df name="crypto_shorthash">
+                  <df name="siphash24">
+                    <df name="ref">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_sign">
+                  <df name="ed25519">
+                    <df name="ref10">
+                    </df>
+                  </df>
+                </df>
+                <df name="crypto_stream">
+                  <df name="chacha20">
+                    <df name="ref">
+                    </df>
+                  </df>
+                  <df name="salsa20">
+                    <df name="ref">
+                    </df>
+                  </df>
+                  <df name="xsalsa20">
+                  </df>
+                </df>
+                <df name="crypto_verify">
+                  <df name="sodium">
+                  </df>
+                </df>
+                <df name="randombytes">
+                </df>
+                <df name="sodium">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="port">
+          </df>
+        </df>
+        <df name="log">
+        </df>
+        <df name="lwip">
+          <df name="apps">
+            <df name="dhcpserver">
+            </df>
+            <df name="ping">
+            </df>
+            <df name="sntp">
+            </df>
+          </df>
+          <df name="lwip">
+            <df name="src">
+              <df name="api">
+              </df>
+              <df name="apps">
+                <df name="sntp">
+                </df>
+              </df>
+              <df name="core">
+                <df name="ipv4">
+                </df>
+                <df name="ipv6">
+                </df>
+              </df>
+              <df name="netif">
+              </df>
+            </df>
+          </df>
+          <df name="port">
+            <df name="esp32">
+              <df name="debug">
+              </df>
+              <df name="freertos">
+              </df>
+              <df name="netif">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="main">
+        </df>
+        <df name="mbedtls">
+          <df name="mbedtls">
+            <df name="library">
+            </df>
+          </df>
+          <df name="port">
+            <df name="esp32">
+            </df>
+          </df>
+        </df>
+        <df name="mdns">
+        </df>
+        <df name="mqtt">
+          <df name="esp-mqtt">
+            <df name="lib">
+            </df>
+          </df>
+        </df>
+        <df name="newlib">
+        </df>
+        <df name="nghttp">
+          <df name="nghttp2">
+            <df name="lib">
+            </df>
+          </df>
+          <df name="port">
+          </df>
+        </df>
+        <df name="nvs_flash">
+          <df name="src">
+          </df>
+        </df>
+        <df name="openssl">
+          <df name="library">
+          </df>
+          <df name="platform">
+          </df>
+        </df>
+        <df name="partition_table">
+        </df>
+        <df name="protobuf-c">
+          <df name="protobuf-c">
+            <df name="protobuf-c">
+            </df>
+          </df>
+        </df>
+        <df name="protocomm">
+          <df name="proto-c">
+          </df>
+          <df name="src">
+            <df name="common">
+            </df>
+            <df name="security">
+            </df>
+            <df name="simple_ble">
+            </df>
+            <df name="transports">
+            </df>
+          </df>
+        </df>
+        <df name="pthread">
+        </df>
+        <df name="sdmmc">
+        </df>
+        <df name="soc">
+          <df name="esp32">
+          </df>
+          <df name="src">
+            <df name="hal">
+            </df>
+          </df>
+        </df>
+        <df name="spi_flash">
+        </df>
+        <df name="spiffs">
+          <df name="spiffs">
+            <df name="src">
+            </df>
+          </df>
+        </df>
+        <df name="tcp_transport">
+        </df>
+        <df name="tcpip_adapter">
+        </df>
+        <df name="ulp">
+        </df>
+        <df name="unity">
+          <df name="unity">
+            <df name="src">
+            </df>
+          </df>
+        </df>
+        <df name="vfs">
+        </df>
+        <df name="wear_levelling">
+        </df>
+        <df name="wifi_provisioning">
+          <df name="proto-c">
+          </df>
+          <df name="src">
+          </df>
+        </df>
+        <df name="wpa_supplicant">
+          <df name="port">
+          </df>
+          <df name="src">
+            <df name="ap">
+            </df>
+            <df name="common">
+            </df>
+            <df name="crypto">
+            </df>
+            <df name="eap_peer">
+            </df>
+            <df name="esp_supplicant">
+            </df>
+            <df name="rsn_supp">
+            </df>
+            <df name="tls">
+            </df>
+            <df name="utils">
+            </df>
+            <df name="wps">
+            </df>
+          </df>
+        </df>
+        <df name="xtensa">
+        </df>
+      </df>
+      <df name="CMakeFiles">
+        <df name="3.16.3">
+          <df name="CompilerIdASM">
+          </df>
+          <df name="CompilerIdC">
+            <df name="tmp">
+            </df>
+            <in>CMakeCCompilerId.c</in>
+          </df>
+          <df name="CompilerIdCXX">
+            <df name="tmp">
+            </df>
+            <in>CMakeCXXCompilerId.cpp</in>
+          </df>
+        </df>
+        <df name="CMakeTmp">
+        </df>
+        <df name="git-data">
+        </df>
+      </df>
+      <df name="kconfig_bin">
+      </df>
+      <df name="main">
+        <in>fonts.c</in>
+        <in>fonts.h</in>
+        <in>i2c_manual.c</in>
+        <in>i2c_manual.h</in>
+        <in>init_ESP.c</in>
+        <in>init_ESP.h</in>
+        <in>main.c</in>
+        <in>mcp3425a1.c</in>
+        <in>mcp3425a1.h</in>
+        <in>ssd1306.c</in>
+        <in>ssd1306.h</in>
+        <in>traffic_light.c</in>
+        <in>traffic_light.h</in>
+        <in>xi2c.c</in>
+        <in>xi2c.h</in>
+      </df>
+      <df name="mconf-idf-prefix">
+        <df name="src">
+          <df name="mconf-idf-stamp">
+          </df>
+        </df>
+        <df name="tmp">
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
